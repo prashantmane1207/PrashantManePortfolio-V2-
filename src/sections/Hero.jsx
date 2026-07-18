@@ -21,7 +21,6 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
         >
-          <p className="section-eyebrow mb-4">// hello_world.jsx</p>
 
           <h1 className="font-display text-4xl font-semibold leading-tight text-text sm:text-5xl lg:text-6xl">
             Hi, I'm <span className="text-primary">Prashant Mane</span>
