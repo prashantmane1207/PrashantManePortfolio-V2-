@@ -24,7 +24,6 @@ export default function Projects() {
   return (
     <section id="projects" className="mx-auto max-w-6xl px-6 py-28">
       <SectionHeading
-        eyebrow="// projects/"
         title="Featured Projects"
         subtitle="Real-world applications built using Java, React, databases, and modern web technologies, focusing on practical problem-solving and full-stack development."
       />
