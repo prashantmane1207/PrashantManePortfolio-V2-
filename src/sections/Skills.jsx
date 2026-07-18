@@ -6,7 +6,6 @@ export default function Skills() {
   return (
     <section id="skills" className="mx-auto max-w-6xl px-6 py-28">
       <SectionHeading
-        eyebrow="// skills.json"
         title="Skills & Technologies"
         subtitle="A working toolkit spanning frontend interfaces, Java backends, databases and the tools that hold it all together."
       />
