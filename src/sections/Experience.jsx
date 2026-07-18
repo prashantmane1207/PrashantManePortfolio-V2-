@@ -6,7 +6,7 @@ import { FiBriefcase, FiBookOpen } from 'react-icons/fi'
 export default function Experience() {
   return (
     <section id="experience" className="mx-auto max-w-6xl px-6 py-28">
-      <SectionHeading eyebrow="// experience.log" title="Experience & Education" />
+      <SectionHeading  title="Experience & Education" />
 
       <div className="grid gap-12 lg:grid-cols-2">
         <div>
