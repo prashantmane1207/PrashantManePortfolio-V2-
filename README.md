@@ -1,89 +1,140 @@
-# Prashant Mane — Portfolio
+# 🚀 Prashant Mane Portfolio (V2)
 
-A premium, production-ready personal portfolio built with React, Vite and Tailwind CSS — content is pulled directly from Prashant Mane's resume and GitHub profile ([@prashantmane1207](https://github.com/prashantmane1207)).
+A modern, responsive developer portfolio built with **React**, **Vite**, and **Tailwind CSS** to showcase my projects, technical skills, and journey as a Java Full Stack & React Developer.
 
-## Tech Stack
+🌐 **Live Demo:** https://prashant-mane-portfolio-v2.vercel.app
 
-- React.js 18 (Vite)
+---
+
+## 📖 About
+
+This portfolio highlights my work in Java Full Stack Development, React, REST APIs, databases, and Generative AI integration. It is designed with a clean UI, smooth animations, responsive layouts, and reusable components to provide an engaging user experience.
+
+---
+
+## ✨ Features
+
+- 🎨 Modern and responsive UI
+- ⚡ Built with React + Vite
+- 🎯 Tailwind CSS styling
+- 📱 Mobile-first responsive design
+- 🌙 Smooth animations using Framer Motion
+- 📂 Project showcase with detailed case studies
+- 📊 GitHub statistics section
+- 📬 Contact form with EmailJS integration
+- 🚀 Deployed on Vercel
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Vite
 - Tailwind CSS
-- React Router DOM
-- Framer Motion (animations)
-- React Icons
-- React Type Animation
-- React Scroll
-- React Toastify
-- EmailJS (`@emailjs/browser`)
-- Swiper (available for future use, e.g. testimonial/screenshot carousels)
+- Framer Motion
+- React Router
 
-## Folder Structure
+### Integrations
+- EmailJS
+- GitHub Readme Stats
+
+### Deployment
+- Vercel
+
+---
+
+## 📂 Project Structure
 
 ```
 src/
-  components/   Navbar, Footer, Button, SectionHeading, Loader, ScrollProgressBar, CursorGlow, BackToTop
-  sections/     Hero, About, Skills, Experience, Projects, Certifications, GithubStats, Services, Contact
-  pages/        Home, ProjectDetailAITrip, ProjectDetailEMS, NotFound
-  data/         profile.js, skills.js, experience.js, projects.js, social.js — all editable content lives here
-  hooks/        useActiveSection, useScrollProgress
-  App.jsx, main.jsx, index.css
-public/
-  favicon.svg, robots.txt, Prashant_Mane_Resume.pdf
+│
+├── assets/
+├── components/
+├── data/
+├── hooks/
+├── pages/
+├── sections/
+├── App.jsx
+└── main.jsx
 ```
 
-All content — name, summary, skills, experience, education, certifications, projects — lives in `src/data/*.js`. Edit those files to update the site; no need to touch components.
+---
 
-## Getting Started
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/prashantmane1207/PrashantManePortfolio-V2-.git
+```
+
+### Navigate to the project
+
+```bash
+cd PrashantManePortfolio-V2-
+```
+
+### Install dependencies
 
 ```bash
 npm install
+```
+
+### Start the development server
+
+```bash
 npm run dev
 ```
 
-Visit `http://localhost:5173`.
+---
 
-## Build for Production
+## 🔐 Environment Variables
 
-```bash
-npm run build
-npm run preview   # preview the production build locally
+Create a `.env` file in the project root.
+
+```env
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
 ```
 
-Output goes to `dist/`.
+---
 
-## EmailJS Setup (Contact Form)
+## 📸 Screenshots
 
-The contact form uses [EmailJS](https://www.emailjs.com/) so it works without a backend.
+### Home Page
 
-1. Create a free account at emailjs.com.
-2. Add an Email Service (e.g. Gmail) — note the **Service ID**.
-3. Create an Email Template with variables: `from_name`, `from_email`, `subject`, `message` — note the **Template ID**.
-4. Copy your **Public Key** from Account → API Keys.
-5. Copy `.env.example` to `.env` and fill in the three values:
+Add your homepage screenshot here.
 
-```bash
-cp .env.example .env
-```
+### Projects
 
-```
-VITE_EMAILJS_SERVICE_ID=service_xxxxxxx
-VITE_EMAILJS_TEMPLATE_ID=template_xxxxxxx
-VITE_EMAILJS_PUBLIC_KEY=xxxxxxxxxxxxxxxx
-```
+Add project screenshots here.
 
-Restart `npm run dev` after adding the `.env` file. Without these keys, the form shows a friendly error toast instead of failing silently.
+### Contact
 
-## Adding Project Screenshots
+Add contact page screenshot here.
 
-Drop images into `public/projects/<project-slug>/` and reference them from `src/pages/ProjectDetailAITrip.jsx` / `ProjectDetailEMS.jsx`, or add an `image` field to entries in `src/data/projects.js` and render it in `Projects.jsx`.
+---
 
-## Updating Resume
+## 🎯 Future Improvements
 
-Replace `public/Prashant_Mane_Resume.pdf` with an updated file of the same name, or update `resumeUrl` in `src/data/profile.js`.
+- Blog section
+- Dark/Light theme toggle
+- Project filtering improvements
+- Admin dashboard
+- More AI-powered projects
 
-## Deployment
+---
 
-See `DEPLOYMENT.md` for Vercel, Netlify and GitHub Pages instructions.
+## 👨‍💻 Author
 
-## Notes on Content Accuracy
+**Prashant Mane**
 
-- The **Employee Management System** project is documented from the resume; no public GitHub link was found for it at build time. Add the repo URL in `src/data/projects.js` (`github` field) once it's published.
-- GitHub stats on the page are fetched **live** from the public GitHub REST API (`api.github.com`) at runtime — no hardcoded numbers, no API key required, but subject to GitHub's public rate limits (60 requests/hour per IP for unauthenticated calls).
+Java Full Stack & React Developer
+
+- GitHub: https://github.com/prashantmane1207
+- LinkedIn: https://www.linkedin.com/in/prashant-mane-0b125b31b/
+- Portfolio: https://prashant-mane-portfolio-v2.vercel.app
+
+---
