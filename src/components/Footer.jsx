@@ -18,7 +18,6 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="section-eyebrow mb-4">// Quick Links</p>
             <ul className="space-y-2">
               {navLinks.slice(0, 5).map((link) => (
                 <li key={link.to}>
@@ -37,7 +36,6 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="section-eyebrow mb-4">// Connect</p>
             <div className="flex gap-3">
               <a
                 href={profile.github}
