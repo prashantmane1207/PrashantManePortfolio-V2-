@@ -76,7 +76,6 @@ export default function Contact() {
   return (
     <section id="contact" className="mx-auto max-w-6xl px-6 py-28">
       <SectionHeading
-        eyebrow="// contact.send()"
         title="Let's Work Together"
         subtitle="Open to Internship and Full-Time opportunities — reach out and I'll respond as soon as I can."
       />
