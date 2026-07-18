@@ -112,7 +112,11 @@ export default function ProjectDetailAITrip() {
             alt="Trip Planner Home"
             className="rounded-2xl border border-white/10"
           />
-          
+          <img
+            src={summaryImage}
+            alt="Trip Planner Home"
+            className="rounded-2xl border border-white/10"
+          />
           <img
             src={itinaryDay1}
             alt="AI Generated Itinerary"
