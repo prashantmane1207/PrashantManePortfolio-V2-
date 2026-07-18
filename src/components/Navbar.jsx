@@ -22,7 +22,7 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50">
       <nav className="glass mx-auto mt-3 flex max-w-6xl items-center justify-between rounded-2xl px-5 py-3 sm:px-8">
         <Link to="/" className="font-display text-lg font-semibold tracking-tight text-text">
-          <span className="text-primary">&lt;</span>Prashant<span className="text-primary">/&gt;</span>
+          <span className="text-primary"></span>Prashant Mane<span className="text-primary"></span>
         </Link>
 
         <ul className="hidden items-center gap-1 md:flex">
