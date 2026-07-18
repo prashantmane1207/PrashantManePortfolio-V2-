@@ -42,7 +42,7 @@ const timeline = [
 export default function About() {
   return (
     <section id="about" className="mx-auto max-w-6xl px-6 py-28">
-      <SectionHeading eyebrow="// about.md" title="About Me" />
+      <SectionHeading title="About Me" />
 
       <div className="grid gap-12 lg:grid-cols-2">
         <motion.div
