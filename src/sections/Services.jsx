@@ -8,7 +8,7 @@ const icons = [ Laptop,Code2,Server, Database, BrainCircuit, Coffee,];
 export default function Services() {
   return (
     <section id="services" className="mx-auto max-w-6xl px-6 py-28">
-      <SectionHeading eyebrow="// services.map" title="What I Build" />
+      <SectionHeading title="What I Build" />
 
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {services.map((s, i) => {
