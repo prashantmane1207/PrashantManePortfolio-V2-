@@ -4,6 +4,7 @@ import { Link as ScrollLink } from 'react-scroll'
 import { FiGithub, FiLinkedin, FiMail, FiDownload } from 'react-icons/fi'
 import { profile } from '../data/profile'
 import Button from '../components/Button'
+import profileImage from "../assets/images/ProfilePhoto-1.png";
 
 export default function Hero() {
   return (
@@ -88,30 +89,23 @@ export default function Hero() {
         </motion.div>
 
         <motion.div
-          initial={{ opacity: 0, scale: 0.92 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.7, delay: 0.15 }}
-          className="mx-auto w-full max-w-sm"
-        >
-          <div className="glass rounded-2xl p-1 shadow-card">
-            <div className="flex items-center gap-1.5 rounded-t-xl bg-card/80 px-4 py-2.5">
-              <span className="h-2.5 w-2.5 rounded-full bg-red-400/70" />
-              <span className="h-2.5 w-2.5 rounded-full bg-yellow-400/70" />
-              <span className="h-2.5 w-2.5 rounded-full bg-green-400/70" />
-              <span className="ml-3 font-mono text-xs text-text-muted">profile.js</span>
-            </div>
-            <div className="rounded-b-xl bg-card/60 p-6 font-mono text-sm leading-relaxed text-text-muted">
-              <p><span className="text-accent">const</span> dev = {'{'}</p>
-              <p className="pl-4">name: <span className="text-primary">'Prashant Mane'</span>,</p>
-              <p className="pl-4">based: <span className="text-primary">'Sangli, maharashtra India'</span>,</p>
-              <p className="pl-4">stack: [<span className="text-primary">'Java'</span>, <span className="text-primary">'React'</span>, <span className="text-primary">'OracleSQL'</span>],</p>
-              <p className="pl-4">focus: <span className="text-primary">'Full Stack Development + AI'</span>,</p>
-              <p className="pl-4">currently: <span className="text-primary">'Learning Spring Boot'</span>,</p>
-              <p className="pl-4">status: <span className="text-primary">'open to work'</span></p>
-              <p>{'}'}</p>
-            </div>
-          </div>
-        </motion.div>
+  initial={{ opacity: 0, scale: 0.92 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 0.7, delay: 0.15 }}
+  className="flex justify-center"
+>
+  <div className="relative">
+    {/* Background Glow */}
+    <div className="absolute inset-0 rounded-full bg-primary/30 blur-3xl"></div>
+
+    {/* Profile Image */}
+    <img
+      src={profileImage}
+      alt="Prashant Mane"
+      className="relative h-80 w-80 rounded-full object-cover border-4 border-primary shadow-2xl"
+    />
+  </div>
+</motion.div>
       </div>
     </section>
   )
