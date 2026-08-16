@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 'ai-trip-planner',
-    name: 'AI-Based Trip Planner',
+    name: 'Waypoint — AI Trip Planner',
     tagline: 'AI-powered travel planning platform using Generative AI',
     description:
       'A full-stack AI travel planning application that generates personalized day-wise itineraries based on destination, budget, and trip duration. Integrated Google Gemini API for AI-generated recommendations with Spring Boot REST APIs and MongoDB for data management.',
