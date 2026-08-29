@@ -15,7 +15,7 @@ export const projects = [
     ],
     github: 'https://github.com/prashantmane1207/AI-Based-Trip-Planner',
     demo: '',
-    tags: ['React', 'AI', 'FullStack'],
+    tags: ['React', 'AI', 'Full Stack'],
     featured: true,
     detailPath: '/projects/ai-trip-planner',
   },
