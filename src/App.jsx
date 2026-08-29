@@ -25,15 +25,28 @@ export default function App() {
       <main className="relative z-10">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/projects/ai-trip-planner" element={<ProjectDetailAITrip />} />
-          <Route path="/projects/employee-management-system" element={<ProjectDetailEMS />} />
+
+          <Route
+            path="/projects/ai-trip-planner"
+            element={<ProjectDetailAITrip />}
+          />
+
+          <Route
+            path="/projects/ride-booking-application"
+            element={<ProjectDetailEMS />}
+          />
+
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
 
       <Footer />
       <BackToTop />
-      <ToastContainer theme="dark" position="bottom-right" autoClose={4000} />
+      <ToastContainer
+        theme="dark"
+        position="bottom-right"
+        autoClose={4000}
+      />
     </div>
   )
 }
