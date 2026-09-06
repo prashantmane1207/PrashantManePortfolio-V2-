@@ -1,3 +1,4 @@
+```javascript
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { FiArrowLeft, FiGithub } from 'react-icons/fi'
@@ -18,23 +19,23 @@ const sections = [
   },
   {
     title: 'Solution',
-    body: "A React frontend collects trip preferences and sends them to a Java/Spring Boot backend, which calls the Google Gemini API to generate a structured, day-wise itinerary. Trip data is persisted in MongoDB so users can revisit and manage past plans.",
+    body: "A React frontend collects trip preferences and sends them to a Java/Spring Boot backend, which integrates with the OpenRouter AI API to generate structured, day-wise itineraries. Trip data is persisted in MongoDB so users can revisit their saved plans.",
   },
   {
     title: 'Architecture',
-    body: "React Frontend → Spring Boot Backend → (MongoDB for storage, Gemini API for generation) → structured itinerary returned to the UI. The frontend and backend are decoupled behind REST endpoints.",
+    body: "React Frontend → Spring Boot Backend → (MongoDB for storage, OpenRouter AI for itinerary generation) → structured itinerary returned to the UI. The frontend and backend communicate through REST APIs.",
   },
   {
     title: 'Results',
-    body: "A complete itinerary is generated in roughly 3–5 seconds from user input, and the interface stays 100% responsive across mobile, tablet and desktop thanks to a component library of 15+ reusable React pieces.",
+    body: "The application generates personalized day-wise itineraries from user preferences and provides a responsive interface for viewing and managing trip plans across different screen sizes.",
   },
   {
     title: 'Challenges',
-    body: "Structuring prompts so the Gemini API reliably returns clean, parseable, day-wise data (rather than freeform text) was the trickiest part — solved by tightly scoping the prompt and validating the response shape before rendering it.",
+    body: "Structuring prompts so the OpenRouter AI API reliably returns clean, parseable, day-wise data rather than freeform text was an important challenge. This was handled by carefully constructing the prompt and processing the API response before displaying the itinerary.",
   },
   {
     title: 'Learning',
-    body: "This project was where full-stack development, React component architecture, REST API integration, MongoDB schema design and working with a generative AI API all came together in one build.",
+    body: "This project strengthened my understanding of full-stack development, Spring Boot REST APIs, React frontend integration, MongoDB data handling, and integrating a generative AI API into a real-world application.",
   },
 ]
 
@@ -56,7 +57,7 @@ export default function ProjectDetailAITrip() {
       <p className="mt-2 text-primary">AI-powered travel planning platform using Generative AI</p>
 
       <div className="mt-4 flex flex-wrap gap-2">
-        {['React.js', 'Java', 'Spring Boot', 'MongoDB', 'REST APIs', 'JWT Authentication', 'Google Gemini API'].map((t) => (
+        {['React.js', 'Java', 'Spring Boot', 'MongoDB', 'REST APIs', 'OpenRouter AI'].map((t) => (
           <span key={t} className="rounded bg-white/5 px-2.5 py-1 text-xs text-text-muted">{t}</span>
         ))}
       </div>
@@ -85,12 +86,12 @@ export default function ProjectDetailAITrip() {
           <h2 className="font-display text-xl font-semibold text-text">Features</h2>
           <ul className="mt-3 space-y-2">
             {[
-              ' AI-generated personalized, travel itineraries',
-              ' Google Gemini API integration',
+              ' AI-generated personalized travel itineraries',
+              ' OpenRouter AI API integration',
               ' Spring Boot REST API backend',
               ' MongoDB trip data persistence',
-              ' 15+ reusable React components',
-              ' Responsive mobile-first UI'
+              ' React.js frontend integration',
+              ' Responsive user interface'
             ].map((f) => (
               <li key={f} className="flex gap-2 text-sm text-text-muted">
                 <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" /> {f}
@@ -134,3 +135,4 @@ export default function ProjectDetailAITrip() {
     </article>
   )
 }
+```
