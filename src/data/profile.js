@@ -6,7 +6,7 @@ export const profile = {
   email: 'prashantmane1207@gmail.com',
   github: 'https://github.com/prashantmane1207',
   linkedin: 'https://www.linkedin.com/in/prashant-mane-0b125b31b/',
-  resumeUrl: 'https://drive.google.com/file/d/1AZF8YoadKhf9s8yDWore43W6Nj0QecRb/view?usp=drive_link',
+  resumeUrl: 'https://drive.google.com/file/d/1lMMd6pjkVonMJ0pONH_QC-zd4mQg0It5/view?usp=sharing',
   summary:
     "Enthusiastic software developer with a strong foundation in Java, HTML, CSS, JavaScript, React.js, Hibernate, SQL, PostgreSQL, and REST API development. Hands-on experience building responsive web applications and integrating Generative AI APIs into intelligent, user-centric products. Comfortable across object-oriented programming, database design, and frontend engineering, with a habit of shipping clean, maintainable code.",
   tagline:
