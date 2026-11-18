@@ -1,3 +1,4 @@
+
 export const navLinks = [
   { label: 'Home', to: 'hero' },
   { label: 'About', to: 'about' },
@@ -8,29 +9,30 @@ export const navLinks = [
   { label: 'Services', to: 'services' },
   { label: 'Contact', to: 'contact' },
 ]
+
 export const services = [
   {
-    title: 'Full Stack Applications',
-    description: 'Build web applications using Java, Spring Boot, React.js, REST APIs, and PostgreSQL or MongoDB.',
+    title: 'Full Stack Web Development',
+    description: 'Develop web applications by connecting React.js frontends with Java and Spring Boot backends, using REST APIs and databases such as PostgreSQL and MongoDB.',
   },
   {
-    title: 'Modern Frontend Development',
-    description: 'Create responsive and user-friendly interfaces using React.js, JavaScript, HTML5, CSS3, and reusable components.',
+    title: 'Frontend Development',
+    description: 'Build responsive and user-friendly web interfaces using React.js, JavaScript, HTML5, and CSS3, with reusable components and clean layouts.',
   },
   {
-    title: 'Backend & API Development',
-    description: 'Develop backend services, business logic, and REST APIs using Java, Spring Boot, JDBC, Hibernate, and RESTful web services.',
+    title: 'Backend Development & REST APIs',
+    description: 'Develop backend application functionality using Java, Spring Boot, Spring MVC, Hibernate, and Spring Data JPA, following layered architecture and REST API principles.',
   },
   {
-    title: 'Database Development',
-    description: 'Work with relational and NoSQL databases using PostgreSQL, MongoDB, SQL, JDBC, CRUD operations, and database relationships.',
+    title: 'Database Integration',
+    description: 'Work with PostgreSQL, MongoDB, and SQL to manage application data, implement CRUD operations, and integrate databases with backend services.',
   },
   {
-    title: 'AI-Assisted Development',
-    description: 'Use AI tools to improve development productivity, assist with debugging, generate code, and integrate Generative AI APIs such as OpenRouter into applications.',
+    title: 'AI API Integration',
+    description: 'Integrate Generative AI APIs into web applications to build intelligent features, including AI-powered travel itinerary generation using OpenRouter.',
   },
   {
     title: 'Responsive Web Applications',
-    description: 'Build responsive, mobile-friendly applications with a focus on usability, clean UI, and consistent user experience across devices.',
+    description: 'Create mobile-friendly web applications with consistent layouts, accessible interfaces, and a smooth user experience across different screen sizes.',
   },
 ]
