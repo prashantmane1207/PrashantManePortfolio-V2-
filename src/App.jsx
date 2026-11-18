@@ -1,3 +1,4 @@
+
 import { Routes, Route } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
@@ -12,6 +13,7 @@ import BackToTop from './components/BackToTop'
 import Home from './pages/Home'
 import ProjectDetailAITrip from './pages/ProjectDetailAITrip'
 import ProjectDetailEMS from './pages/ProjectDetailEMS'
+import FoodOrderingSystem from './pages/FoodOrderingSystem'
 import NotFound from './pages/NotFound'
 
 export default function App() {
@@ -34,6 +36,11 @@ export default function App() {
           <Route
             path="/projects/ride-booking-application"
             element={<ProjectDetailEMS />}
+          />
+
+          <Route
+            path="/projects/food-ordering-system"
+            element={<FoodOrderingSystem />}
           />
 
           <Route path="*" element={<NotFound />} />
