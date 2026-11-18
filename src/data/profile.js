@@ -1,14 +1,30 @@
+
 export const profile = {
   name: 'Prashant Mane',
-  roles: ['Frontend Developer', 'Java Full Stack Developer', 'AI Enthusiast', 'AI-Powered Web Developer'],
+
+  roles: [
+    'Java Full Stack Developer',
+    'Java Backend Developer',
+    'React.js Developer',
+    'Software Developer',
+  ],
+
   location: 'Pune, Maharashtra, India',
+
   phone: '+91 8856007451',
+
   email: 'prashantmane1207@gmail.com',
+
   github: 'https://github.com/prashantmane1207',
+
   linkedin: 'https://www.linkedin.com/in/prashant-mane-0b125b31b/',
-  resumeUrl: 'https://drive.google.com/file/d/1lMMd6pjkVonMJ0pONH_QC-zd4mQg0It5/view?usp=sharing',
+
+  resumeUrl:
+    'https://drive.google.com/file/d/1Y1JnZRL2Tdb2gEvadzSZHFxtmN5ITfmw/view?usp=sharing',
+
   summary:
-    "Enthusiastic software developer with a strong foundation in Java, HTML, CSS, JavaScript, React.js, Hibernate, SQL, PostgreSQL, and REST API development. Hands-on experience building responsive web applications and integrating Generative AI APIs into intelligent, user-centric products. Comfortable across object-oriented programming, database design, and frontend engineering, with a habit of shipping clean, maintainable code.",
+    "B.Tech graduate with hands-on project experience in Java Full Stack Development using Java 17, Spring Boot, React.js, JavaScript, and SQL. Experienced in building REST-based applications involving backend development, database integration, authentication, input validation, and exception handling. Familiar with Hibernate, Spring Data JPA, layered architecture, and API testing. Also experienced in integrating Generative AI APIs into practical web applications.",
+
   tagline:
-    "I build modern, responsive web applications using React, Java, Hibernate, PostgreSQL, and REST APIs, while increasingly integrating Generative AI to create smarter, more engaging user experiences.",
-}
+    "I develop full-stack web applications using Java, Spring Boot, React.js, and SQL, with a focus on building reliable backend services, responsive user interfaces, and practical solutions to real-world problems.",
+};
